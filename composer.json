@@ -1,6 +1,6 @@
 {
-    "name": "ilateral/silverstripe-bootstrap-4",
-    "description": "A simple SilverStripe theme built on bootstrap 4",
+    "name": "ilateral/silverstripe-fancy-top-nav",
+    "description": "Simple, styled, full width theme with an afixed top header/navbar",
     "type": "silverstripe-theme",
     "keywords": [
         "silverstripe",
