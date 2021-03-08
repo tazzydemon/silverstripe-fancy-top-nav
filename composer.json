@@ -10,12 +10,16 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
+            "name": "Morven Lewis-Everley (ilateral)",
+            "homepage": "http://ilateralweb.co.uk"
+        }
+        {
             "name": "Mark Anderson (ilateral)",
-            "homepage": "http://www.ilateral.co.uk"
+            "homepage": "http://ilateralweb.co.uk"
         }
     ],
     "extra": {
-        "installer-name": "bootstrap",
+        "installer-name": "fancytopnav",
         "expose": [
             "css",
             "javascript",
@@ -26,6 +30,7 @@
     },
     "require": {
         "composer/installers": "*",
-        "silverstripe/framework": ">=4.0"
+        "silverstripe/framework": ">=4.0",
+        "i-lateral/silverstripe-deferedimages": "^1.0"
     }
 }
