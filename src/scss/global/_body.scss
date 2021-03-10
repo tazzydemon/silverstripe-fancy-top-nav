@@ -2,7 +2,6 @@
     BODY STYLES
 ****************************************/
 .main {
-    background-color: $main-bg;
     &.full-background {
         background-size: cover;
         background-repeat: no-repeat;
@@ -11,7 +10,8 @@
     &:not(.no-pad-top) .container {
         padding-top: $grid-gutter-width/2;
     }
-    .container {
+    & > .container {
+        background-color: $main-bg;
         padding-bottom: $grid-gutter-width/2;
     }
     .banner-image {
