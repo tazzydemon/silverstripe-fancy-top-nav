@@ -32,4 +32,16 @@ header {
         right: 0;
         border-bottom: 7px solid $header-bottom-border-colour;
     }
+
+    .dropdown-menu a {
+        position: relative;
+        @extend .pr-5;
+        .fa-chevron-right {
+            opacity: 0.25;
+            right: 1em;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+        }
+    }
 }
