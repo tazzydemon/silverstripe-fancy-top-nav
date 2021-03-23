@@ -11,3 +11,7 @@ body {
 hr {
     margin-bottom: $grid-gutter-width;
 }
+
+.column-content {
+    columns: 2;
+}
