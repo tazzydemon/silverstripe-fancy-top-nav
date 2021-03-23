@@ -65,5 +65,4 @@
 			</div>
 		</div>
 	</div>
-	<div class="bottom-bar"></div>
 </header>
