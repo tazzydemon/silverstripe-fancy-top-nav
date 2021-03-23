@@ -1,6 +1,6 @@
 <footer role="contentinfo">
-    <div class="container px-3">
-        <div class="row">
+    <div class="container pt-4">
+        <div class="row mx-0">
             <div class="col-sm">
                 <h3 class="h5">Links</h3>
                 <ul class="nav row">
@@ -53,8 +53,10 @@
 						</a>
 					</p>
 				<% end_if %>
-                <p>&copy; Copyright {$Now.Year} {$SiteConfig.Title}. All rights reserved. | SilverStripe Bootstrap theme by <a href="http://www.ilateralweb.co.uk" target="_blank">ilateral</a>.</p>
+                <p>&copy; Copyright {$Now.Year} {$SiteConfig.Title}. All rights reserved.</p>
             </div>
         </div>
+        <p class="text-center">SilverStripe theme by <a href="http://www.ilateralweb.co.uk" target="_blank">ilateral</a>.</p>
+
     </div>
 </footer>

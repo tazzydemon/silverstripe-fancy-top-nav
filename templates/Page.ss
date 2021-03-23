@@ -35,10 +35,8 @@
 		<% include Header %>
 
 		<div class="main<% if $Level(2) %> sublevel<% end_if %><% if $FeaturedImage || $MapEmbed %> no-pad-top<% end_if %><% if $SiteConfig.TileBackground %> tile-background<% else %> full-background<% end_if %>" role="main"<% if $SiteConfig.Background %> style="background-image: url($SiteConfig.Background.ScaleMaxWidth(1920).URL)"<% end_if %>>
-			<div class="container typography px-3">
-				<div class="row">
-					$Layout
-				</div>
+			<div class="container typography">
+				$Layout
 			</div>
 			<% include Footer %>
 		</div>
