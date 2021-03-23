@@ -1,4 +1,4 @@
-<header class="sticky-top shadow-sm" role="banner">
+<header class="sticky-top shadow" role="banner">
 	<div class="container">
 		<div class="row align-items-end">
 			<div class="col-7 col-sm-6 col-md-4 col-lg-auto">
