@@ -1,13 +1,13 @@
 <header class="sticky-top shadow" role="banner">
 	<div class="container">
-		<div class="row align-items-end">
+		<div class="row align-items-middle">
 			<div class="col-7 col-sm-6 col-md-4 col-lg-auto">
 				<p class="h1">				
 					<a href="$BaseHref" class="brand" rel="home">
 						<% if $SiteConfig.Logo %>
 							$SiteConfig.Logo.ScaleHeight(80)
 						<% else %>
-							$SiteConfig.Title
+							<strong>$SiteConfig.Title</strong>
 						<% end_if %>
 					</a>
 				</p>

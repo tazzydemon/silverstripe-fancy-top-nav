@@ -9,6 +9,9 @@ header {
     a {
         color: $header-colour;      
     }
+    .brand {
+        font-size: 90%;
+    }
 
     @include media-breakpoint-up(lg) {
         .navbar-main {
