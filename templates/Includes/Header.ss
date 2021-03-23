@@ -11,13 +11,6 @@
 						<% end_if %>
 					</a>
 				</p>
-				<% if not $SiteConfig.Logo && $SiteConfig.Tagline %>
-					<p class="d-none d-sm-block">
-						<a href="$BaseHref" class="brand" rel="home">
-							$SiteConfig.Tagline
-						</a>
-					</p>
-				<% end_if %>
 			</div>
 			<div class="navbar navbar-expand-lg navbar-light col-5 col-sm-6 col-md-8 d-lg-none py-0">
 				<button class="navbar-toggler mx-auto my-1 ml-sm-auto mr-sm-2" type="button" data-toggle="collapse" data-target="#MainNav" aria-controls="MainNav" aria-expanded="false" aria-label="Toggle navigation">
