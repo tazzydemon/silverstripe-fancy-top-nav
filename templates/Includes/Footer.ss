@@ -37,7 +37,7 @@
                 <% end_with %>
             </div>
             <div class="col-sm">
-				<p class="h1">				
+				<p class="h1 mb-0">				
 					<a href="$BaseHref" class="brand" rel="home">
 						<% if $SiteConfig.Logo %>
 							$SiteConfig.Logo.ScaleHeight(80)
@@ -56,7 +56,6 @@
                 <p>&copy; Copyright {$Now.Year} {$SiteConfig.Title}. All rights reserved.</p>
             </div>
         </div>
-        <p class="text-center">SilverStripe theme by <a href="http://www.ilateralweb.co.uk" target="_blank">ilateral</a>.</p>
-
     </div>
+    <p class="text-center mt-3 text-light">SilverStripe theme by <a class="text-light" href="http://www.ilateralweb.co.uk" target="_blank">ilateral</a>.</p>
 </footer>

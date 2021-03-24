@@ -1,7 +1,7 @@
 <% if $Posts %>
 	<ul class="list-group list-group-flush">
 		<% loop $Posts %>
-			<li class="list-group-item">
+			<li class="list-group-item px-0">
 				<a href="$Link" title="$Title">
 					<span class="text">$Title</span>
 				</a>
