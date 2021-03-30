@@ -7,8 +7,8 @@
                 </a>
             </p>
         <% end_if %>
-        <div>
-            <h3>
+        <div class="d-flex flex-column h-100">
+            <h3 class="mb-auto d-block pb-2">
                 <a href="{$Link}">{$Title}</a>
             </h3>
 
