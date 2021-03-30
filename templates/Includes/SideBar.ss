@@ -8,4 +8,7 @@
 			<% end_with %>
 		</nav>
 	<% end_if %>
+	<% if $SideBarView.Widgets %>
+			$SideBarView
+	<% end_if %>
 </aside>

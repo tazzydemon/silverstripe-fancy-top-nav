@@ -1,6 +1,8 @@
 <div class="col-12 px-0">
     <div class="row">
-        <% if $MapEmbed %>
+        <% if $CarouselSlides && $ShowCarousel %>
+            $CarouselSlides
+        <% else_if $MapEmbed %>
             <div class="map-row col-12 px-0">
                 <div class="mb-4 embed-responsive embed-responsive-map">
                     $MapEmbed
