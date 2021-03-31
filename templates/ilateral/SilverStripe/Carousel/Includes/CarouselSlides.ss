@@ -1,0 +1,51 @@
+<% require css("i-lateral/silverstripe-carousel: client/dist/styles/carousel.css") %>
+
+<% if $Slides.exists %>
+    <div id="CarouselSlider" class="carousel slide" data-interval="{$Interval}" data-ride="carousel">
+        
+        <% if $ShowIndicators = 1 %>
+            <ol class="carousel-indicators">
+                <% loop $Slides %>
+                    <li
+                        data-target="#CarouselSlider"
+                        data-slide-to="$Pos(0)"
+                        <% if $First %>class="active"<% end_if %>
+                    ></li>
+                <% end_loop %>
+            </ol>
+        <% end_if %>
+
+        <div class="carousel-inner">
+            <% loop $Slides %>
+                <div class="carousel-item <% if $First %>active<% end_if %>">
+                    $RenderedImage
+                    <% if Title %>
+                        <div class="carousel-caption text-center d-none d-md-block slide-content">
+							<% if $Link.LinkURL %>
+								<p class="h2"><strong>
+                                    <a href="$Link.LinkURL" $Link.TargetAttr>$Title.RAW</a>
+                                </strong></p>
+							<% else %>
+								<p class="h2"><strong>
+                                    $Title.RAW
+                                </strong></p>
+							<% end_if %>
+                        </div>
+                    <% end_if %>
+                </div>
+            <% end_loop %>
+        </div>
+
+        <% if $ShowControls = 1 %>
+            <a class="carousel-control-prev" href='#CarouselSlider' role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"><%t Carousel.Prev "Prev" %></span>
+            </a>
+
+            <a class="carousel-control-next" href='#CarouselSlider' role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"><%t Carousel.Next "Next" %></span>
+            </a>
+        <% end_if %>
+    </div>
+<% end_if %>
