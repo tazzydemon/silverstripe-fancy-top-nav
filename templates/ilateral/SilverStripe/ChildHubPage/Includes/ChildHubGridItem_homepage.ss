@@ -1,5 +1,5 @@
 <div class="unit size1of3 unit-33 col-lg-3 col-sm-6 mb-4 child $EvenOdd child-{$Pos}">
-    <div class="h-100">
+    <div class="h-100 d-flex flex-column">
         <% if $FeaturedImage.exists %>
             <p class="child-image">
                 <a href="{$Link}">
