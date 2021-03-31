@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="col-sm-12">
+<div class="col-sm-12 pt-3">
     <div class="row">
         <div class="col">
             <h1<% if not $Level(2) %> class="text-center"<% end_if %>>
