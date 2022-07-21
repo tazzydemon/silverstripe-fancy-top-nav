@@ -9,7 +9,7 @@ Simple, styled, full width theme with an afixed header/navbar at the top using B
 
 ## Apperance
 
-![Theme Preview](./theme-ss4-bootstrap4.png)
+![Theme Preview](./theme-ss4-fancytopnav.png)
 
 ## Instalation
 
