@@ -2,46 +2,51 @@
     HEADER STYLES
 ****************************************/
 header {
-    background: $header-background;
-    padding-top: $grid-gutter-width/4;
-    padding-bottom: $grid-gutter-width/4;
-    color: $header-colour;
-    a {
-        color: $header-colour;      
-    }
-    .brand {
-        font-size: 90%;
-    }
+  background: $header-background;
+  padding-top: $grid-gutter-width/4;
+  padding-bottom: $grid-gutter-width/4;
+  color: $header-colour;
+  border-top: 7px solid $header-top-border-colour;
 
-    @include media-breakpoint-up(lg) {
-        .navbar-main {
-            padding-bottom: 0;
-            right: 0;
-            z-index: 9;       
-            li {
-                &.active {
-                    border-bottom: none;
-                }  
-            }
-        }
-    }
-    .bottom-bar {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        border-bottom: 7px solid $header-bottom-border-colour;
-    }
+  a {
+    color: $header-colour;      
+  }
+  .brand {
+    font-size: 90%;
+  }
 
-    .dropdown-menu a {
-        position: relative;
-        @extend .pr-5;
-        .fa-chevron-right {
-            opacity: 0.25;
-            right: 1em;
-            top: 50%;
-            transform: translateY(-50%);
-            position: absolute;
-        }
+  @include media-breakpoint-up(lg) {
+    .navbar-main {
+      padding-bottom: 0;
+      right: 0;
+      z-index: 9;       
+      li {
+        &.active {
+          border-bottom: none;
+        }  
+      }
     }
+  }
+
+  .bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 7px solid $header-bottom-border-colour;
+  }
+
+  .dropdown-menu a {
+    @extend .pr-5;
+
+    position: relative;
+
+    .fa-chevron-right {
+      opacity: 0.25;
+      right: 1em;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+  }
 }
