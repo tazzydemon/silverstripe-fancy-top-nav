@@ -2,31 +2,31 @@
     BODY STYLES
 ****************************************/
 .main {
-    &.full-background {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+  &.full-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
-    &:not(.no-pad-top) .container {
-        padding-top: $grid-gutter-width/2;
-    }
+  & > .container {
+    background-color: $main-bg;
+    padding-bottom: $grid-gutter-width/2;
+  }
 
-    & > .container {
-        background-color: $main-bg;
-        padding-bottom: $grid-gutter-width/2;
-    }
+  &:not(.no-pad-top) .container {
+    padding-top: $grid-gutter-width/2;
+  }
 
-    .banner-image {
-        margin-bottom: $grid-gutter-width;
-    }
+  .banner-image {
+    margin-bottom: $grid-gutter-width;
+  }
 
-    .secondary .nav-pills .nav {
-      padding: $grid-gutter-width/4;
+  .secondary .nav-pills .nav {
+    padding: $grid-gutter-width/4;
 
-      .active {
-          background: transparent;
-          color: $sub-nav-active-colour;
-      }
+    .active {
+      background: transparent;
+      color: $sub-nav-active-colour;
     }
+  }
 }

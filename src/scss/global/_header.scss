@@ -9,8 +9,9 @@ header {
   border-top: 7px solid $header-top-border-colour;
 
   a {
-    color: $header-colour;      
+    color: $header-colour;
   }
+
   .brand {
     font-size: 90%;
   }
@@ -19,11 +20,12 @@ header {
     .navbar-main {
       padding-bottom: 0;
       right: 0;
-      z-index: 9;       
+      z-index: 9;
+
       li {
         &.active {
           border-bottom: none;
-        }  
+        }
       }
     }
   }
