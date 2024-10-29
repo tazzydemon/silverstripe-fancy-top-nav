@@ -1,6 +1,6 @@
 {
-    "name": "dft/silverstripe-fancy-top-nav",
-    "description": "Simple, styled, full width theme with an afixed top header/navbar",
+    "name": "tazzydemon/silverstripe-fancy-top-nav",
+    "description": "Simple, styled, full width theme with an afixed top header/navbar. Originally by DFT. Deferred Images removed",
     "homepage": "https://github.com/Dean-Forest-Tech/silverstripe-fancy-top-nav",
     "type": "silverstripe-theme",
     "keywords": [
