@@ -26,7 +26,6 @@
         ]
     },
     "require": {
-        "silverstripe/framework": "^4 || ^5",
-        "i-lateral/silverstripe-deferedimages": "^1"
+        "silverstripe/framework": "^4 || ^5"
     }
 }
